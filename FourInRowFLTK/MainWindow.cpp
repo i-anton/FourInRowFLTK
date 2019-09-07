@@ -193,7 +193,6 @@ void MainWindow::onClick(unsigned int x, unsigned int y, int rmb)
 				uname += ent.volName;
 				uname += int_to_hex(ent.serial);
 				uname += ent.letter;
-				std::cout << uname;
 				if (hash_user_combo == hash(uname)) {
 					drvS = hash_user_combo;
 					goto FINE;
